@@ -1,0 +1,16 @@
+/* ================================= 
+Flex
+==================================== */
+
+.logo, .email-container, .second-container {
+	display: flex;
+}
+
+.email-container {
+	flex-direction: column;
+}
+
+.second-container {
+	flex-direction: column;
+	align-items: center;
+}

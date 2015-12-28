@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+
+}
+
+html, body {
+  height: 100%;
+  margin: 0px auto;
+  color: #61554F;
+}
+
+html, body, p, h1, h3, li {
+  font-family: 'GeosansLight', serif;
+  font-weight: 300;
+  color: #606060;
+}
+
+.logo {
+	width: 53%;
+	margin: auto;
+	padding: 5px 0 5px 0;
+}
+
+.menu-item {
+  list-style: none;
+  padding: 10px;
+  color: #A09FA0;
+  font-size: 1.1em;
+  display: none;
+}
+
+/************background **************/
+
+.first-page {
+	background:rgba(47, 39, 39, .60);
+	background-image: url("../img/bg1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/*************************************/
+
+.main-header {
+	    background-color: rgba(255,255,255,0.55);
+}
+
+.home-title, .home-desc, .coupon {
+	color: #f9f9f9;
+}
+
+.home-title {
+	font-size: 12vw;
+    text-align: center;
+}
+
+.home-desc {
+	margin-left: 31px;
+    margin-right: 31px;
+}
+
+.form {
+	padding: 10px 53px 0px 53px;
+	margin-bottom:7px;
+}
+
+input.email, input.name {
+	padding: 10px 0px 10px 6px;
+	border: 1px solid #413838;
+	border-radius: 3px;
+	margin-bottom: 4px;
+}
+
+.email-button {
+	color: #f9f9f9;
+	padding: 11px 83px;
+	background-color: #C3D075;
+	border: 1px solid #C3D075;
+	border-radius: 3px;
+	margin-bottom: 4px;
+}
+
+.coupon {
+	margin-top: 0;
+	font-size: 10.46px;
+	text-align: center;
+    padding-bottom: 10vh;
+}
+
+.imageone {
+	width: 229px;
+	margin: 0 auto;
+	margin-bottom: 18px;
+}
+
+.second-title {
+	font-size: 3em;
+    text-align: center;
+}
+
+.second-desc, .second-description {
+	margin-left: 31px;
+    margin-right: 31px;
+    margin-top: 0px;
+}
+
+/*************PHOTOSWIPE************/
+
+.photoswipe {
+	width: 100%;
+	height: auto;
+}
