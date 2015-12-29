@@ -15,6 +15,10 @@ html, body, p, h1, h3, li {
   color: #606060;
 }
 
+h3 {
+	line-height: 25px;
+}
+
 .logo {
 	width: 53%;
 	margin: auto;
@@ -27,6 +31,12 @@ html, body, p, h1, h3, li {
   color: #A09FA0;
   font-size: 1.1em;
   display: none;
+}
+
+/************links********************/
+
+email-button:hover {
+	background-color: #C3D032;
 }
 
 /************background **************/
@@ -44,16 +54,16 @@ html, body, p, h1, h3, li {
 	    background-color: rgba(255,255,255,0.55);
 }
 
-.home-title, .home-desc, .coupon {
+.sign-up, .sign-up-desc, .coupon {
 	color: #f9f9f9;
 }
 
-.home-title {
+.sign-up {
 	font-size: 12vw;
     text-align: center;
 }
 
-.home-desc {
+.sign-up-desc {
 	margin-left: 31px;
     margin-right: 31px;
 }
@@ -80,7 +90,7 @@ input.email, input.name {
 }
 
 .coupon {
-	margin-top: 0;
+    margin-top: 5px;
 	font-size: 10.46px;
 	text-align: center;
     padding-bottom: 10vh;
@@ -92,15 +102,17 @@ input.email, input.name {
 	margin-bottom: 18px;
 }
 
-.second-title {
+.titles {
 	font-size: 3em;
     text-align: center;
+    margin: 5%;
 }
 
-.second-desc, .second-description {
+.descriptions {
 	margin-left: 31px;
     margin-right: 31px;
     margin-top: 0px;
+
 }
 
 /*************PHOTOSWIPE************/
@@ -108,4 +120,74 @@ input.email, input.name {
 .photoswipe {
 	width: 100%;
 	height: auto;
+}
+
+/*************************************/
+
+#bottleone, .ayurvedic {
+	width: 100%;
+}
+
+.value-props-list {
+	padding: 0;
+}
+
+.value-prop-item {
+	list-style: none;
+	padding: 10px 5px;
+  	font-size: 1em;
+  	width: calc(100%/4.24);
+  	color: #96A156;
+  	font-style: italic;
+    margin: 5px 20px;
+}
+
+.fourth-desc {
+	margin: 31px;
+}
+
+.fifth-desc {
+	margin-left: 45px;
+	margin-right: 45px;
+}
+
+.fifth-container {
+	background-image: url("../img/bg3.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #f9f9f9;
+	height: 100%;
+}
+
+.fifth-desc, .fifth-title {
+	color: #f9f9f9;
+}
+
+.fifth-title{
+	padding: 30px 0px;
+}
+
+
+.beads {
+	background-image: url("../img/bg4.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 377px;
+}
+
+.sixth-desc {
+	margin-bottom: 17%;
+
+}
+
+.final-container {
+	background-image: url("../img/bg5.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+}
+
+.final-title {
+	margin-top: 91px;
 }

@@ -14,3 +14,10 @@ Flex
 	flex-direction: column;
 	align-items: center;
 }
+
+.value-props-list {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
