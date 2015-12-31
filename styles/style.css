@@ -28,14 +28,14 @@ h3 {
 .menu-item {
   list-style: none;
   padding: 10px;
-  color: #A09FA0;
+  color: #C3D075;
   font-size: 1.1em;
   display: none;
 }
 
 /************links********************/
 
-email-button:hover {
+button:hover {
 	background-color: #C3D032;
 }
 
@@ -47,6 +47,11 @@ email-button:hover {
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+
+
+/************JS CHANGE!**************/
+
+
 
 /*************************************/
 
@@ -66,6 +71,7 @@ email-button:hover {
 .sign-up-desc {
 	margin-left: 31px;
     margin-right: 31px;
+    text-align: center;
 }
 
 .form {
@@ -83,8 +89,8 @@ input.email, input.name {
 .email-button {
 	color: #f9f9f9;
 	padding: 11px 83px;
-	background-color: #C3D075;
-	border: 1px solid #C3D075;
+	background-color: #c4cf7a;
+	border: 1px solid #c4cf7a;
 	border-radius: 3px;
 	margin-bottom: 4px;
 }
@@ -112,6 +118,7 @@ input.email, input.name {
 	margin-left: 31px;
     margin-right: 31px;
     margin-top: 0px;
+    text-align: left;
 
 }
 
@@ -146,6 +153,10 @@ input.email, input.name {
 	margin: 31px;
 }
 
+.fifth-content {
+	justify-content: center;
+	flex-direction: column;
+}
 .fifth-desc {
 	margin-left: 45px;
 	margin-right: 45px;
@@ -155,6 +166,7 @@ input.email, input.name {
 	background-image: url("../img/bg3.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
 	color: #f9f9f9;
 	height: 100%;
 }
@@ -191,3 +203,5 @@ input.email, input.name {
 .final-title {
 	margin-top: 91px;
 }
+
+

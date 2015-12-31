@@ -2,12 +2,13 @@
 Flex
 ==================================== */
 
-.logo, .email-container, .second-container {
+.logo, .email-container, .second-container, .fifth-content {
 	display: flex;
 }
 
 .email-container {
 	flex-direction: column;
+	justify-content: center;
 }
 
 .second-container {
@@ -20,4 +21,50 @@ Flex
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-around;
+}
+
+/* ================================= 
+Media Queries/Flex
+==================================== */
+@media (min-width: 769px) {
+	.main-header, .menu-list {
+		display: flex;
+	}
+
+	.logo {
+		width: 186px;
+		margin-left: 55px;
+	}	
+
+	.main-header {
+		background: none;
+	    height: 100px;
+    	align-items: center;
+    	justify-content: space-between;
+	}
+
+	a:link {
+		text-decoration: none;
+		color: #f9f9f9;
+		opacity: 0.28;
+	}
+
+	a.selected, a:hover {
+  		color: #C3D075;
+  		opacity: 1;
+
+}
+
+	.menu-item {
+		display: inline;
+	}
+
+	.sign-up {
+		font-size: 48px;
+	}
+
+	.email-container {
+		flex-direction: row;
+	}
+
 }
