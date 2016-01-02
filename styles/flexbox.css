@@ -67,4 +67,37 @@ Media Queries/Flex
 		flex-direction: row;
 	}
 
+.first-page {
+	height: 600px;
+}
+
+	#video-wrap {
+	bottom: 0;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 0;
+    object-fit: cover;
+    height: 600px;
+    z-index: -100;
+    background: url("../img/videobackup.png");
+	}
+
+
+#my-video {
+	width: 100%;
+	height: auto;
+	object-fit: contain;
+}
+
+#video-overlay {
+  height:100%;
+  width: 100%;
+  position: absolute;
+  z-index: 97;
+  background-color: #090909;
+  opacity: 0.46;
+}
+
 }

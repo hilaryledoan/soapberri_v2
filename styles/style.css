@@ -40,7 +40,7 @@ button:hover {
 }
 
 /************background **************/
-
+@media (max-width: 768px) {
 .first-page {
 	background:rgba(47, 39, 39, .60);
 	background-image: url("../img/bg1.jpg");
@@ -48,6 +48,10 @@ button:hover {
 	background-size: cover;
 }
 
+#video-wrap {
+	display: none;
+}
+}
 
 /************JS CHANGE!**************/
 
