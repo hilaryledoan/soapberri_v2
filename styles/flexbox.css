@@ -1,8 +1,8 @@
 /* ================================= 
-Flex
+Flex for Mobile/Desktop
 ==================================== */
 
-.logo, .email-container, .second-container, .fifth-content {
+.logo, .email-container, .second-container, .fifth-content, .imageone, .seconds {
 	display: flex;
 }
 
@@ -23,14 +23,21 @@ Flex
 	justify-content: space-around;
 }
 
+.seconds {
+	flex-direction: column;
+}
+
 /* ================================= 
-Media Queries/Flex
+Media Queries/Flex for Desktop
 ==================================== */
 @media (min-width: 769px) {
 	.main-header, .menu-list {
 		display: flex;
 	}
 
+	h3 {
+		font-size: 21px;
+	}
 	.logo {
 		width: 186px;
 		margin-left: 55px;
@@ -41,6 +48,7 @@ Media Queries/Flex
 	    height: 100px;
     	align-items: center;
     	justify-content: space-between;
+    	width: 95%;
 	}
 
 	a:link {
@@ -92,7 +100,7 @@ Media Queries/Flex
 }
 
 #video-overlay {
-  height:100%;
+  height:56.3vw;
   width: 100%;
   position: absolute;
   z-index: 97;
@@ -100,4 +108,104 @@ Media Queries/Flex
   opacity: 0.46;
 }
 
+.email-button {
+	padding: 0;
+	flex-grow: 1;
+
+}
+
+.email-container {
+	width: 550px;
+    margin: 0 auto;
+}
+
+input {
+	margin-right: 10px;
+}
+
+input.email {
+	flex-grow: 2;
+}
+
+.sign-up-desc {
+	width: 500px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    font-size: 19px;    
+}
+
+.sign-up {
+	margin-top: 100px;
+}
+
+.imageone {
+	height: 229px;
+	order: 3;
+}
+
+.product {
+	display: flex;
+    width: 76%;
+    margin: 0 auto;
+}
+
+.value-props-container {
+	order: 3;
+}
+.bottle {
+	order: 2;
+	margin-top: 25px;
+}
+
+.value-props-list {
+	flex-direction: column;
+}
+
+.seconds {
+	display: flex;
+}
+
+.second-desc {
+	order: 1;
+}
+
+.second-description {
+	order: 2;
+}
+
+.fifth-container {
+	background-image: url("../img/bg3.2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	color: #f9f9f9;
+	height: 100%;
+}
+
+.beads {
+	image
+}
+
+.inner-beads {
+	display: flex;
+	flex-direction: row;
+}
+
+.imageone {
+	order: 2;
+}
+
+.fifth-desc {
+    margin-left: 26%;
+    margin-right: 26%;
+}
+
+.sixth-desc {
+	width: 350px;
+    margin-top: 7vh;
+}
+
+.fourth-title {
+	text-align: left;
+}
 }

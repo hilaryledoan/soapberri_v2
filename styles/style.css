@@ -128,9 +128,16 @@ input.email, input.name {
 
 /*************PHOTOSWIPE************/
 
+
 .photoswipe {
 	width: 100%;
 	height: auto;
+}
+
+@media (min-width: 768px) {
+	.photoswipe {
+		display: none;
+	}
 }
 
 /*************************************/
@@ -166,6 +173,7 @@ input.email, input.name {
 	margin-right: 45px;
 }
 
+@media (max-width: 768px) {
 .fifth-container {
 	background-image: url("../img/bg3.jpg");
 	background-repeat: no-repeat;
@@ -173,6 +181,7 @@ input.email, input.name {
 	background-position: center;
 	color: #f9f9f9;
 	height: 100%;
+}
 }
 
 .fifth-desc, .fifth-title {
@@ -183,12 +192,25 @@ input.email, input.name {
 	padding: 30px 0px;
 }
 
-
+@media (max-width: 768px) {
 .beads {
 	background-image: url("../img/bg4.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 377px;
+}
+
+.larger-beads {
+	display: none;
+}
+}
+
+@media (min-width: 769px) {
+.beads {
+	background-image: url("../img/bg4.2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 }
 
 .sixth-desc {
@@ -208,4 +230,14 @@ input.email, input.name {
 	margin-top: 91px;
 }
 
+#video-two {
+	display: none;
+}
 
+@media (min-width: 769px) {
+#video-two {
+	display: block;
+	height: auto;
+    width: 100%;
+}
+}
