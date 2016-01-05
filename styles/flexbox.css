@@ -180,6 +180,11 @@ input.email {
 	background-position: center;
 	color: #f9f9f9;
 	height: 100%;
+	height: 600px;
+    background-position: 50% 50%; /**parallax**/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .beads {
