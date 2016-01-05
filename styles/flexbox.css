@@ -79,7 +79,7 @@ Media Queries/Flex for Desktop
 	height: 600px;
 }
 
-	#video-wrap {
+#video-wrap {
 	bottom: 0;
     left: 0;
     overflow: hidden;
@@ -93,7 +93,7 @@ Media Queries/Flex for Desktop
 	}
 
 
-#my-video {
+#my-video, #video-two {
 	width: 100%;
 	height: auto;
 	object-fit: contain;
@@ -196,7 +196,7 @@ input.email {
 }
 
 .fifth-desc {
-    margin-left: 26%;
+    margin-left: 30%;
     margin-right: 26%;
 }
 

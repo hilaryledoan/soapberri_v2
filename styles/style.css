@@ -48,7 +48,7 @@ button:hover {
 	background-size: cover;
 }
 
-#video-wrap {
+#video-wrap, #videotwo-wrap {
 	display: none;
 }
 }

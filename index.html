@@ -122,18 +122,22 @@
 
 		      	<h3 class="descriptions" "second-desc">For thousands of years, Mother Nature has grown the Soapberry Tree. </h3>
 
-				<img class="imageone" src="img/bg2.jpg">
+	<img class="imageone" src="img/bg2.jpg">
 
 		      	<h3 class="descriptions" "second-description">Encompassed in this berry is saponin, a naturally lathering surfactant that creates a creamy, anti-microbial foam.</h3>
+     		</div>
+
+
 		</div>
 
       </div>
 
       <div class="third-container">
-      	<div id="videotwo">
+      	      <div id="outer-wrap" style="width: 100%; height: 600px;">
+      	<div id="videotwo-wrap">
           <video id="video-two" preload="metadata" autoplay loop>
           	<source src="video/ProductionVideo1.mp4" type="video/mp4">
-
+          	<img src="/img/photoswipe1.jpg" title="Your browser does not support the <video> tag">
       </video>
       </div>
       <div>
@@ -206,8 +210,57 @@
 	      		<p class="coupon">Receive a <em>FREE</em> body wash offer as an early bird</p>	        
 	      </form> 
 
-		</div>
-   	</body>
+        </div>
+
+
+    <script type="text/javascript" src="lib/backgroundVideo.min.js"></script>
+
+    <script>
+
+    $(document).ready(function() {
+          $('#video-two').backgroundVideo({
+              $videoWrap: $('#videotwo-wrap'),
+              $outerWrap: $('#outer-wrap'),
+              preventContextMenu: true,
+              parallaxOptions: {
+                  offset: 60,
+                  effect: 1.7
+              }
+          });
+       });
+    </script>
+
+    <script type="text/javascript" src="lib/backgroundVideo.min.js"></script>
+
+    <script>
+
+    $(document).ready(function() {
+          $('#my-video2').backgroundVideo({
+              $videoWrap: $('#video-wrap2'),
+              $outerWrap: $('#outer-wrap2'),
+              preventContextMenu: true,
+              parallaxOptions: {
+                  offset: 60,
+                  effect: 1.7
+              }
+          });
+       });
+    </script>
+
+    <script type="text/javascript">
+      if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) {
+        document.getElementById('video-wrap').style.display = "none";
+        document.getElementById('video-wrap2').style.display = "none";
+        document.getElementById('signup-video').style.display = "none";
+        document.getElementById('video-overlay').style.visibility = "hidden";
+     }
+    </script>
+
+
+  </body>
+</html>
+
+
 
 
 
