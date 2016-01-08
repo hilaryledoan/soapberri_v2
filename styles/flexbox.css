@@ -6,13 +6,15 @@ Flex for Mobile/Desktop
 	display: flex;
 }
 
-.email-container {
+.email-container, .second-container, .seconds {
 	flex-direction: column;
+}
+
+.email-container {
 	justify-content: center;
 }
 
 .second-container {
-	flex-direction: column;
 	align-items: center;
 }
 
@@ -23,10 +25,6 @@ Flex for Mobile/Desktop
 	justify-content: space-around;
 }
 
-.seconds {
-	flex-direction: column;
-}
-
 /* ================================= 
 Media Queries/Flex for Desktop
 ==================================== */
@@ -35,10 +33,14 @@ Media Queries/Flex for Desktop
 		display: flex;
 	}
 
-	h3 {
-		font-size: 21px;
-	}
 	.logo {
+		display: none;
+	}
+
+	h3 {
+		font-size: 20px;
+	}
+	.logo2 {
 		width: 186px;
 		margin-left: 55px;
 	}	
@@ -51,14 +53,14 @@ Media Queries/Flex for Desktop
     	width: 95%;
 	}
 
-	a:link {
+	a:link, a:visited {
 		text-decoration: none;
 		color: #f9f9f9;
 		opacity: 0.28;
 	}
 
 	a.selected, a:hover {
-  		color: #C3D075;
+  		color: #C4CF7A;
   		opacity: 1;
 
 }
@@ -67,16 +69,12 @@ Media Queries/Flex for Desktop
 		display: inline;
 	}
 
-	.sign-up {
-		font-size: 48px;
-	}
-
 	.email-container {
 		flex-direction: row;
 	}
 
 .first-page {
-	height: 600px;
+	height: 750px;
 }
 
 #video-wrap {
@@ -87,7 +85,7 @@ Media Queries/Flex for Desktop
     right: 0;
     top: 0;
     object-fit: cover;
-    height: 600px;
+    height: 720px;
     z-index: -100;
     background: url("../img/videobackup.png");
 	}
@@ -110,7 +108,7 @@ Media Queries/Flex for Desktop
 
 .email-button {
 	padding: 0;
-	flex-grow: 1;
+	width: 100px;
 
 }
 
@@ -124,23 +122,37 @@ input {
 }
 
 input.email {
-	flex-grow: 2;
+	width: 220px;
+}
+
+input.name {
+	width: 75px;
 }
 
 .sign-up-desc {
 	width: 500px;
     margin: 0 auto;
-    margin-bottom: 50px;
-    font-size: 19px;    
+    margin-bottom: 20px;
+    font-size: 1.4em;
+    margin-top: 55px;    
 }
 
 .sign-up {
 	margin-top: 100px;
 }
 
+.second-container {
+	height: 50%;
+    width: 85%;
+    margin: 0 auto;
+}
+
 .imageone {
 	height: 229px;
-	order: 3;
+}
+
+.descriptions {
+	width: 75%;
 }
 
 .product {
@@ -162,24 +174,14 @@ input.email {
 }
 
 .seconds {
-	display: flex;
-}
-
-.second-desc {
-	order: 1;
-}
-
-.second-description {
-	order: 2;
+	flex-direction: row;
 }
 
 .fifth-container {
 	background-image: url("../img/bg3.2.jpg");
-	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
 	color: #f9f9f9;
-	height: 100%;
 	height: 600px;
     background-position: 50% 50%; /**parallax**/
     background-repeat: no-repeat;
@@ -196,13 +198,8 @@ input.email {
 	flex-direction: row;
 }
 
-.imageone {
-	order: 2;
-}
-
 .fifth-desc {
-    margin-left: 30%;
-    margin-right: 26%;
+    margin: 0 auto;
 }
 
 .sixth-desc {
@@ -213,4 +210,39 @@ input.email {
 .fourth-title {
 	text-align: left;
 }
+
+.larger-beads {
+	height: 400px;
+}
+
+@media (min-width: 769px) {
+.final-container {
+	background-image: url("../img/bg5.2.jpg");
+	width: 100%;
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	color: #f9f9f9;
+	height: 600px;
+    background-position: 50% 50%; /**parallax**/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+}
+
+
+/*CSS Parallax background
+video#videobg { 
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: auto;
+	height: 100%;
+	z-index: -100;
+	/*background: url('images/poster.jpg') no-repeat;
+	background-size: cover;
+	transition: 1s opacity;
+}
+*/
 }

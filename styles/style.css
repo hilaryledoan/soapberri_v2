@@ -6,23 +6,36 @@
 html, body {
   height: 100%;
   margin: 0px auto;
-  color: #61554F;
 }
 
 html, body, p, h1, h3, li {
-  font-family: 'GeosansLight', serif;
+  font-family: 'GeosansLight', sans-serif;
   font-weight: 300;
-  color: #606060;
+  color: #3d3c3b;
+}
+
+h1 {
+	font-family: 'Prata', serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 6.3px;
+	font-size: 2em;
 }
 
 h3 {
-	line-height: 25px;
+	line-height: 37px;
 }
 
+@media (max-width: 768px) {
 .logo {
 	width: 53%;
 	margin: auto;
 	padding: 5px 0 5px 0;
+}
+
+.logo2 {
+	display: none;
+}
 }
 
 .menu-item {
@@ -36,7 +49,7 @@ h3 {
 /************links********************/
 
 button:hover {
-	background-color: #C3D032;
+	background-color: #BDCE49;
 }
 
 /************background **************/
@@ -64,11 +77,11 @@ button:hover {
 }
 
 .sign-up, .sign-up-desc, .coupon {
-	color: #f9f9f9;
+	color: #F2F1F1;
 }
 
 .sign-up {
-	font-size: 12vw;
+	font-size: 1.6em;
     text-align: center;
 }
 
@@ -76,6 +89,7 @@ button:hover {
 	margin-left: 31px;
     margin-right: 31px;
     text-align: center;
+    font-family: 'Lato', sans-serif;
 }
 
 .form {
@@ -85,7 +99,7 @@ button:hover {
 
 input.email, input.name {
 	padding: 10px 0px 10px 6px;
-	border: 1px solid #413838;
+	border: 1px solid #3d3c3b;
 	border-radius: 3px;
 	margin-bottom: 4px;
 }
@@ -93,8 +107,8 @@ input.email, input.name {
 .email-button {
 	color: #f9f9f9;
 	padding: 11px 83px;
-	background-color: #c4cf7a;
-	border: 1px solid #c4cf7a;
+	background-color: #C4CF7A;
+	border: 1px solid #C4CF7A;
 	border-radius: 3px;
 	margin-bottom: 4px;
 }
@@ -113,7 +127,7 @@ input.email, input.name {
 }
 
 .titles {
-	font-size: 3em;
+	font-size: 2em;
     text-align: center;
     margin: 5%;
 }
@@ -125,6 +139,8 @@ input.email, input.name {
     text-align: left;
 
 }
+
+.second-desc,
 
 /*************PHOTOSWIPE************/
 
@@ -155,7 +171,7 @@ input.email, input.name {
 	padding: 10px 5px;
   	font-size: 1em;
   	width: calc(100%/4.24);
-  	color: #96A156;
+  	color: #c4cf7a;
   	font-style: italic;
     margin: 5px 20px;
 }
@@ -165,7 +181,6 @@ input.email, input.name {
 }
 
 .fifth-content {
-	justify-content: center;
 	flex-direction: column;
 }
 .fifth-desc {
@@ -218,12 +233,20 @@ input.email, input.name {
 
 }
 
+@media (max-width: 768px) {
 .final-container {
 	background-image: url("../img/bg5.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
 	width: 100%;
 	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	color: #f9f9f9;
+	height: 600px;
+    background-position: 50% 50%; /**parallax**/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
 }
 
 .final-title {

@@ -25,7 +25,15 @@
 
 		<link rel="stylesheet" tyle="text/css" href="styles/flexbox.css">
 
-		<link rel="geosanslight" href="GeosansLight.ttf">
+		<link rel="GeosansLight" href="fonts/GeosansLight.ttf">
+
+		<link rel="prata" href="fonts/Prata-Regular.ttf">
+
+		<!-- <link rel="stylesheet" href="fonts/Lato-Regular.ttf"> -->
+
+		<link rel="stylesheet" href="fonts/Mrseav.ttf"
+
+		<link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
 
 		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
 
@@ -72,13 +80,13 @@
   		<div class="first-page">
   		<header class="main-header">
   				<img class="logo" src="img/logo.png">
+  				<img class="logo2" src="img/logo2.png">
   			<ul class="main-list">
   				<li class="menu-item"><a href="http://soapberri.com" class="selected">Home</a></li>
 		        <li class="menu-item"><a data-scroll href="#soapberry">Soapberry</a></li>
 		        <li class="menu-item"><a href="#shampoo">Shampoo/Body Wash</a></li>
-		        <li class="menu-item"><a href="#story">Story</a></li>
-		        <li class="menu-item"><a href="#signup">Signup</a></li>
-		        </ul>
+		        <li class="menu-item"><a href="#ayurvedic">Ayurvedic</a></li>
+		    </ul>
 	    </header>
 
 	    <div class="home-container">
@@ -88,7 +96,7 @@
 	      </h1>
 
 	      <h3 class="sign-up-desc home-desc">
-	      Lather your hair and skin with the forgotten soapberry,  a self-foaming berry from the earth
+	      Lather up with Shampoo/Body Wash made from the forgotten Soapberry
 	      </h3>
 
 	      <form method="POST" action="//api.cloudstitch.io/michael60716/magic-form/datasources/sheet" class="form">
@@ -99,32 +107,35 @@
 	          <button type="submit" class="email-button">Join</button>
 	        </div>
 	      </form> 
-	      <p class="coupon">Receive a <em>FREE</em> body wash offer as an early bird</p>
+	      <p class="coupon">Get a <em>FREE</em> body wash offer as an early bird</p>
       	</div>
 
-      <div class="video-container">
-      <div id="video-wrap">
-      	      <div id="video-overlay">
-      </div> 
-          <video id="my-video" preload="metadata" autoplay loop>
-              <source src="video/video1.mp4" type="video/mp4">
-              <img src="/img/videobackup.png" title="Your browser does not support the <video> tag">
-          </video>
-      </div>
-      </div>
-      </div>
+	      <div class="video-container">
+		      <div id="video-wrap">
+		      	      <div id="video-overlay"></div> 
+		          <video id="my-video" preload="metadata" autoplay loop>
+		              <source src="video/video1.mp4" type="video/mp4">
+		              <img src="/img/videobackup.png" title="Your browser does not support the <video> tag">
+		          </video>
+		      </div>
+<!-- 		      CSS parallax background
+		      <video autoplay id="videobg" loop>
+		      	<source src="video/video1.mp4" type="video/mp4">
+		      	</video> -->
+	      </div>
+      	</div>
 
-      <div class="second-container">
+      <div id="soapberry" class="second-container">
       	<h1 class="titles second-title">The Forgotten Soapberry</h1>
 
 
       	<div class="seconds">
 
-		      	<h3 class="descriptions" "second-desc">For thousands of years, Mother Nature has grown the Soapberry Tree. </h3>
+		      	<h3 class="descriptions" "second-desc">Mankind has not always used toxins and carcinogens to cleanse. Why do we harm ourselves and the environment when Mother Nature has always gifted us the soapberry? </h3>
 
 	<img class="imageone" src="img/bg2.jpg">
 
-		      	<h3 class="descriptions" "second-description">Encompassed in this berry is saponin, a naturally lathering surfactant that creates a creamy, anti-microbial foam.</h3>
+		      	<h3 class="descriptions" "second-description">Discover Soapberry (Hindu: “ritha”, Mandarin: “wu huan zi”): The forgotten berry that has kept various indigenous cultures clean and healthy since ancient times. </h3>
      		</div>
 
 
@@ -133,14 +144,14 @@
       </div>
 
       <div class="third-container">
-      	      <div id="outer-wrap" style="width: 100%; height: 600px;">
-      	<div id="videotwo-wrap">
-          <video id="video-two" preload="metadata" autoplay loop>
-          	<source src="video/ProductionVideo1.mp4" type="video/mp4">
-          	<img src="/img/photoswipe1.jpg" title="Your browser does not support the <video> tag">
-      </video>
-      </div>
-      <div>
+      	<div id="outer-wrap" style="width: 100%; height: 600px;">
+	      	<div id="videotwo-wrap">
+	          <video id="video-two" preload="metadata" autoplay loop>
+	          	<source src="video/ProductionVideo1.mp4" type="video/mp4">
+	          	<img src="/img/photoswipe1.jpg" title="Your browser does not support the <video> tag">
+	      		</video>
+	      	</div>
+      	<div>
       	      	<img class="photoswipe" src="img/photoswipe1.jpg">
       </div>
       </div>
@@ -153,9 +164,14 @@
       	<img id="bottleone" src="img/soapv1.jpg">
       </div>
 
-      <div class="fourth-container">
-      	<h1 class="titles fourth-title">Feel the Balance</h1>
-      	<h3 class="descriptions fourth-desc">Unlike harsh synthetic surfactants, soapberry has a minimal, creamy lather that naturally moisturizes your scalp and hair, and protects your healthy oils.  </h3>
+      <div id="shampoo" class="fourth-container">
+      	<h1 class="titles fourth-title">Hair & Body</h1>
+      	<h3 class="descriptions fourth-desc">We have carefully extracted Saponin—what makes the soapberry nature’s most gentle soap. It is a botanical surfactant with the perfect PH balance (5.5) for the human body.  
+      		<br>
+      		<br>
+      	Unlike harsh synthetic cleansers, Soapberri protects your body's natural oils and keeps your skin healthy and supple, and your hair soft and smooth.
+      	</h3>
+
       </div>
 
        <div class="value-props-container">
@@ -175,30 +191,32 @@
        </div>
 </div>
 
-       <div class="fifth-container">
-       	<div class="fifth-content">
-       		<h1 class="titles fifth-title">Heal Wholesomely</h1>
-       		<h3 class=" descriptions fifth-desc">Soapberry is written in the ancient books of Ayurvedic medicine.</h3>
-			<h3 class="descriptions fifth-desc"> This anti-bacterial fruit holds the key to dermatological and hair treatments</h3>
-			<h3 class="descriptions fifth-desc"> Its roots calm inflammation, 
-			and the leaves relieve joint pain</h3>   
-		</div>
-      	</div>   	
+       <div id="ayurvedic" class="fifth-container">
+	       	<div class="fifth-content">
+	       		<h1 class="titles fifth-title">Heal Wholesomely</h1>
+	       		<h3 class=" descriptions fifth-desc">In Ayurvedic tradition, the soapberry tree is prized as a natural wonder.</h3>
+				<h3 class="descriptions fifth-desc"> While the antibacterial and antifungal fruit is used to wash body and clothes, its roots calm inflammation, and its leaves relieve joint pain. </h3>
+<!-- 				<h3 class="descriptions fifth-desc"> Its roots calm inflammation, 
+				and the leaves relieve joint pain</h3>    -->
+			</div>
+      </div>   	
 		
 		<div class="sixth-container">
-			<h1 class="titles sixth-title">Discover Your Inner Peace</h1>
+			<h1 class="titles sixth-title">Find Inner Peace</h1>
 			<div class="inner-beads">
-			<p class="beads">		
-			</p>
+				<p class="beads"></p>
 			 <img class="larger-beads" src="img/bg4.2.jpg">
-			<h3 class="descriptions sixth-desc">The Sacred seed of the Soapberry are used to create Buddhist Prayer Beads.</h3>
-		</div>
+			<h3 class="descriptions sixth-desc">“To eliminate distress in your mind and find inner peace, string together 108 seeds from the soapberry and meditate...” — Buddha (The Soapberry Sutra)
+				<br>
+				<br>
+			Why soapberry? In Buddhism, we believe the black, marble like seed protects one’s soul, hence a sacred material for prayer beads. </h3>
+			</div>
 		</div>
 
 		<div class="final-container">
 			<br>
-			<h1 class="sign-up final-title">Start your Soap Revolution</h1>
-			<h3 class="sign-up-desc final-desc">Receive information on how Soapberries will work on your skin</h3>
+			<h1 class="sign-up final-title">Early Bird Rewards</h1>
+			<h3 class="sign-up-desc final-desc">Get a <em>FREE</em> body wash offer as an early bird</h3>
 
 	      <form method="POST" action="//api.cloudstitch.io/michael60716/magic-form/datasources/sheet" class="form">
 	        <div class="email-container">
@@ -207,7 +225,7 @@
 	          <input type="hidden" name="_redirect" value="http://www.soapberri.com/thankyou.html"> 
 	          <button type="submit" class="email-button">Join</button>
 	        </div>
-	      		<p class="coupon">Receive a <em>FREE</em> body wash offer as an early bird</p>	        
+	      		<p class="coupon">We will never spam you or share your information</p>	        
 	      </form> 
 
         </div>
@@ -235,9 +253,9 @@
     <script>
 
     $(document).ready(function() {
-          $('#my-video2').backgroundVideo({
-              $videoWrap: $('#video-wrap2'),
-              $outerWrap: $('#outer-wrap2'),
+          $('#video-two').backgroundVideo({
+              $videoWrap: $('#videotwo-wrap'),
+              $outerWrap: $('#outer-wrap'),
               preventContextMenu: true,
               parallaxOptions: {
                   offset: 60,
