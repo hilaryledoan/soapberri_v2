@@ -89,12 +89,16 @@ button:hover {
 	margin-left: 31px;
     margin-right: 31px;
     text-align: center;
-    font-family: 'Lato', sans-serif;
+    font-family: 'GeosansLight', sans-serif;
 }
 
 .form {
 	padding: 10px 53px 0px 53px;
 	margin-bottom:7px;
+}
+
+input, button {
+	font-family: 'GeosansLight';
 }
 
 input.email, input.name {

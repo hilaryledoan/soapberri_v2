@@ -43,6 +43,7 @@ Media Queries/Flex for Desktop
 	.logo2 {
 		width: 186px;
 		margin-left: 55px;
+		margin-top: 10px;
 	}	
 
 	.main-header {
@@ -51,6 +52,7 @@ Media Queries/Flex for Desktop
     	align-items: center;
     	justify-content: space-between;
     	width: 95%;
+        margin-top: 10px;	
 	}
 
 	a:link, a:visited {
@@ -85,7 +87,7 @@ Media Queries/Flex for Desktop
     right: 0;
     top: 0;
     object-fit: cover;
-    height: 720px;
+    height: 650px;
     z-index: -100;
     background: url("../img/videobackup.png");
 	}
@@ -126,23 +128,28 @@ input.email {
 }
 
 input.name {
-	width: 75px;
+	width: 92px;
 }
 
 .sign-up-desc {
 	width: 500px;
     margin: 0 auto;
     margin-bottom: 20px;
-    font-size: 1.4em;
-    margin-top: 55px;    
+    font-size: 1.6em;
+    margin-top: 40px;    
 }
 
 .sign-up {
 	margin-top: 100px;
 }
 
+.coupon {
+	font-size: 18px;
+	margin-top: 15px;
+}
+
 .second-container {
-	height: 50%;
+	height: 70vh;
     width: 85%;
     margin: 0 auto;
 }
@@ -152,7 +159,7 @@ input.name {
 }
 
 .descriptions {
-	width: 75%;
+
 }
 
 .product {
@@ -171,6 +178,11 @@ input.name {
 
 .value-props-list {
 	flex-direction: column;
+}
+
+.value-prop-item {
+    color: #62564f;
+    font-family: 'MRSEAV~3';	
 }
 
 .seconds {
@@ -200,6 +212,7 @@ input.name {
 
 .fifth-desc {
     margin: 0 auto;
+	width: 50%;
 }
 
 .sixth-desc {
@@ -211,8 +224,15 @@ input.name {
 	text-align: left;
 }
 
+.inner-beads {
+	display: flex;
+	height: 60vh;
+	width:auto;
+}
+
 .larger-beads {
 	height: 400px;
+	align-self: flex-end;
 }
 
 @media (min-width: 769px) {
