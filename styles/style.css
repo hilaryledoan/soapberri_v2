@@ -49,7 +49,7 @@ h3 {
 /************links********************/
 
 button:hover {
-	background-color: #BDCE49;
+	background-color: #84A53E;
 }
 
 /************background **************/
@@ -76,12 +76,16 @@ button:hover {
 	    background-color: rgba(255,255,255,0.55);
 }
 
+span {
+	font-size: 37px;
+}
+
 .sign-up, .sign-up-desc, .coupon {
 	color: #F2F1F1;
 }
 
 .sign-up {
-	font-size: 1.6em;
+	font-size: 1.1em;
     text-align: center;
 }
 
@@ -99,6 +103,7 @@ button:hover {
 
 input, button {
 	font-family: 'GeosansLight';
+    font-size: 11px;	
 }
 
 input.email, input.name {
@@ -111,8 +116,8 @@ input.email, input.name {
 .email-button {
 	color: #f9f9f9;
 	padding: 11px 83px;
-	background-color: #C4CF7A;
-	border: 1px solid #C4CF7A;
+	background-color: #97bd48;
+	border: 1px solid #97bd48;
 	border-radius: 3px;
 	margin-bottom: 4px;
 }
@@ -205,10 +210,6 @@ input.email, input.name {
 
 .fifth-desc, .fifth-title {
 	color: #f9f9f9;
-}
-
-.fifth-title{
-	padding: 30px 0px;
 }
 
 @media (max-width: 768px) {

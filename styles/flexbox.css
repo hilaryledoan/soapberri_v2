@@ -76,7 +76,7 @@ Media Queries/Flex for Desktop
 	}
 
 .first-page {
-	height: 750px;
+	height: 700px;
 }
 
 #video-wrap {
@@ -87,7 +87,7 @@ Media Queries/Flex for Desktop
     right: 0;
     top: 0;
     object-fit: cover;
-    height: 650px;
+    height: 700px;
     z-index: -100;
     background: url("../img/videobackup.png");
 	}
@@ -135,12 +135,15 @@ input.name {
 	width: 500px;
     margin: 0 auto;
     margin-bottom: 20px;
-    font-size: 1.6em;
+    font-size: 1.2em;
     margin-top: 40px;    
 }
 
 .sign-up {
+    text-align: left;
 	margin-top: 100px;
+	margin-left: 32vw;
+    margin-right: 32vw;
 }
 
 .coupon {
@@ -156,10 +159,15 @@ input.name {
 
 .imageone {
 	height: 229px;
+	order: 3;
 }
 
-.descriptions {
+.second-desc {
+	order: 1;
+}
 
+.second-description {
+	order: 2;
 }
 
 .product {
@@ -185,9 +193,6 @@ input.name {
     font-family: 'MRSEAV~3';	
 }
 
-.seconds {
-	flex-direction: row;
-}
 
 .fifth-container {
 	background-image: url("../img/bg3.2.jpg");
@@ -222,6 +227,11 @@ input.name {
 
 .fourth-title {
 	text-align: left;
+}
+
+.titles {
+	margin-top: 60px;
+	margin-bottom: 50px;
 }
 
 .inner-beads {
