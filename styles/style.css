@@ -214,7 +214,6 @@ input.email, input.name {
 @media (max-width: 768px) {
 .fifth-desc, .fifth-title {
 	color: #f9f9f9;
-	z-index: 2;
 }
 }
 
@@ -273,5 +272,17 @@ input.email, input.name {
 	display: block;
 	height: auto;
     width: 100%;
+}
+
+#quote {
+	font-family: 'mrseav';
+	font-style: italic;
+	font-size: 16px;
+}
+
+#hindu {
+	font-family: 'mrseav';
+	font-style: italic;
+	font-size: 17px;
 }
 }
