@@ -93,7 +93,6 @@ span {
 	margin-left: 31px;
     margin-right: 31px;
     text-align: center;
-    font-family: 'GeosansLight', sans-serif;
 }
 
 .form {
@@ -115,7 +114,7 @@ input.email, input.name {
 
 .email-button {
 	color: #f9f9f9;
-	padding: 11px 83px;
+	padding: 11px;
 	background-color: #97bd48;
 	border: 1px solid #97bd48;
 	border-radius: 3px;
@@ -130,9 +129,9 @@ input.email, input.name {
 }
 
 .imageone {
-	width: 229px;
 	margin: 0 auto;
 	margin-bottom: 18px;
+	height: 200px;
 }
 
 .titles {
@@ -146,7 +145,10 @@ input.email, input.name {
     margin-right: 31px;
     margin-top: 0px;
     text-align: left;
+}
 
+.descriptions2 {
+	flex-direction: column;
 }
 
 .second-desc,
@@ -183,6 +185,7 @@ input.email, input.name {
   	color: #c4cf7a;
   	font-style: italic;
     margin: 5px 20px;
+    font-family: 'mrseav';
 }
 
 .fourth-desc {
@@ -208,8 +211,11 @@ input.email, input.name {
 }
 }
 
+@media (max-width: 768px) {
 .fifth-desc, .fifth-title {
 	color: #f9f9f9;
+	z-index: 2;
+}
 }
 
 @media (max-width: 768px) {

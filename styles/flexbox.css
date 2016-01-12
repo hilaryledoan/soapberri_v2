@@ -2,7 +2,7 @@
 Flex for Mobile/Desktop
 ==================================== */
 
-.logo, .email-container, .second-container, .fifth-content, .imageone, .seconds {
+.logo, .email-container, .second-container, .fifth-content, .imageone, .seconds, .descriptions2 {
 	display: flex;
 }
 
@@ -55,6 +55,18 @@ Media Queries/Flex for Desktop
         margin-top: 10px;	
 	}
 
+	.seconds {
+		flex-direction: row;
+	}
+
+	.descriptions {
+		max-width: 600px;
+	}
+
+	.descriptions2 {
+		flex-direction: column;
+	}
+
 	a:link, a:visited {
 		text-decoration: none;
 		color: #f9f9f9;
@@ -74,6 +86,11 @@ Media Queries/Flex for Desktop
 	.email-container {
 		flex-direction: row;
 	}
+
+	.titles {
+	margin-top: 60px;
+	margin-bottom: 50px;
+}
 
 .first-page {
 	height: 700px;
@@ -140,10 +157,9 @@ input.name {
 }
 
 .sign-up {
-    text-align: left;
+    text-align: center;
 	margin-top: 100px;
-	margin-left: 32vw;
-    margin-right: 32vw;
+	line-height: 1.6;
 }
 
 .coupon {
@@ -152,14 +168,15 @@ input.name {
 }
 
 .second-container {
-	height: 70vh;
-    width: 85%;
+	height: 500px;
+    width: 76%;
     margin: 0 auto;
 }
 
 .imageone {
 	height: 229px;
 	order: 3;
+    margin-top: -7px;
 }
 
 .second-desc {
@@ -176,21 +193,34 @@ input.name {
     margin: 0 auto;
 }
 
+#outer-wrap {
+	width: 100%; 
+	height: 650px;
+}
+
 .value-props-container {
 	order: 3;
+	display: flex;
 }
 .bottle {
 	order: 2;
 	margin-top: 25px;
 }
 
+#bottleone {
+	width: 264px;
+}
+
 .value-props-list {
 	flex-direction: column;
+	align-self: center;
+	width: 100px;
 }
 
 .value-prop-item {
     color: #62564f;
-    font-family: 'MRSEAV~3';	
+    font-family: 'mrseav';	
+	min-width: 120px;    
 }
 
 
@@ -198,12 +228,32 @@ input.name {
 	background-image: url("../img/bg3.2.jpg");
 	background-size: cover;
 	background-position: center;
-	color: #f9f9f9;
 	height: 600px;
     background-position: 50% 50%; /**parallax**/
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    display:flex;
+}
+
+.fifth-content {
+/*	display: flex;*/
+/*    align-self: center;
+    align-items: center;*/
+    margin: 0 auto;
+	color: #3d3c3b;
+	z-index: 2;
+	position: absolute;
+    transform: translate3d(50%, 25%, 0);
+}
+
+.fifth-overlay {
+	background-color: white;
+	z-index: 1;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	opacity: 0.8;
 }
 
 .beads {
@@ -217,26 +267,35 @@ input.name {
 
 .fifth-desc {
     margin: 0 auto;
-	width: 50%;
+	width: 75%;
+	z-index: 2;
 }
 
+.fifth-title {
+	z-index: 2;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+#fifth-description2 {
+	margin-bottom: 50px;
+}
 .sixth-desc {
 	width: 350px;
-    margin-top: 7vh;
+    margin-top: 15px;
 }
 
 .fourth-title {
 	text-align: left;
 }
 
-.titles {
-	margin-top: 60px;
-	margin-bottom: 50px;
+.fourth-desc {
+	margin: 15px;
 }
 
 .inner-beads {
 	display: flex;
-	height: 60vh;
+	height: 450px;
 	width:auto;
 }
 
