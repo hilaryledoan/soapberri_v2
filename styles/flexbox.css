@@ -173,6 +173,8 @@ input.name {
     margin: 0 auto;
 }
 
+
+
 .imageone {
 	height: 229px;
 	order: 3;
@@ -189,8 +191,9 @@ input.name {
 
 .product {
 	display: flex;
-    width: 76%;
+    /*width: 76%;*/
     margin: 0 auto;
+	max-width: 1039px;
 }
 
 #outer-wrap {
@@ -252,7 +255,19 @@ input.name {
 	position: absolute;
 	height: 100%;
 	width: 100%;
-	opacity: 0.8;
+	opacity: 0.95;
+}
+
+.final-content {
+    width: 600px;
+}
+
+.final-overlay {
+	background-color: white;
+	opacity: 0.95;
+	margin: 30px;
+    width: 600px;
+    margin: 0 auto;
 }
 
 .beads {
@@ -280,7 +295,6 @@ input.name {
 	margin-bottom: 50px;
 }
 .sixth-desc {
-	width: 350px;
     margin-top: 15px;
 }
 
@@ -316,6 +330,10 @@ input.name {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+}
+
+.final-coupon, .final-desc, .final-title {
+	color: #3d3c3b;
 }
 }
 

@@ -59,6 +59,7 @@ button:hover {
 	background-image: url("../img/bg1.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
+	height: 100%;
 }
 
 #video-wrap, #videotwo-wrap {
@@ -74,10 +75,6 @@ button:hover {
 
 .main-header {
 	    background-color: rgba(255,255,255,0.55);
-}
-
-span {
-	font-size: 37px;
 }
 
 .sign-up, .sign-up-desc, .coupon {
@@ -125,7 +122,7 @@ input.email, input.name {
     margin-top: 5px;
 	font-size: 10.46px;
 	text-align: center;
-    padding-bottom: 10vh;
+    padding-bottom: 20px;
 }
 
 .imageone {
@@ -273,6 +270,7 @@ input.email, input.name {
 	height: auto;
     width: 100%;
 }
+}
 
 #quote {
 	font-family: 'mrseav';
@@ -284,5 +282,9 @@ input.email, input.name {
 	font-family: 'mrseav';
 	font-style: italic;
 	font-size: 17px;
+}
+
+span {
+	font-size: 37px;
 }
 }
