@@ -121,8 +121,9 @@ Media Queries/Flex for Desktop
   width: 100%;
   position: absolute;
   z-index: 97;
-  background-color: #090909;
-  opacity: 0.46;
+  /*background-color: #090909;*/
+  opacity: 0.42;
+  background: radial-gradient(rgba(0,0,0,1), rgba(0,0,0,0));
 }
 
 .email-button {
@@ -241,7 +242,7 @@ input.name {
 .fifth-content {
     margin: 0 auto;
 	color: #3d3c3b;
-    margin: 9% auto;
+    margin: 11vh auto;
 }
 
 .fifth-overlay {
