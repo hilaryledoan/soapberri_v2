@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html>
+<html style="text-align: center">
 
   <head>
 
@@ -17,11 +17,11 @@
 
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=playfair+display">
 
-    <link rel="stylesheet" type="flex/css" href="styles/flex.css">
-
-    <meta name="viewport" content="width=device-width,initial-scale=1.47,maximum-scale=1">
+    <link rel="stylesheet" type="text/css" href="styles/flexbox.css">
 
     <link rel="stylesheet" type="text/css" href="styles/style.css">
+
+    <meta name="viewport" content="width=device-width,initial-scale=1.47,maximum-scale=1">
 
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
@@ -53,10 +53,18 @@
 
   <body>
 
-    <header class="main-header">
+    <header class="main-header" style="
+            display: flex;
+            justify-content: center;
+            margin: auto;">
           <div class="tylogo"> 
-          <a href="http://www.soapberri.com"> <img style="height:55px;" src="img/logo.png"></a>
-        </div>
+            <a href="http://www.soapberri.com"> 
+              <img style="height:55px;
+                  display: flex;
+                  margin-top: 21px;" 
+                  src="img/logo.png">
+            </a>
+          </div>
 
 
 
@@ -81,7 +89,7 @@
       </div>
 
 
-      <p class="coupon">We share awesome pictures on Instagram!</p>
+      <p class="final-coupon">Be featured on our Instagram page!</p>
     </div>
 
 

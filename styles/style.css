@@ -8,7 +8,7 @@ html, body {
   margin: 0px auto;
 }
 
-html, body, p, h1, h3, li {
+html, body, p, h1, h2, h3, li {
   font-family: 'GeosansLight', sans-serif;
   font-weight: 300;
   color: #3d3c3b;
@@ -20,6 +20,14 @@ h1 {
 	text-transform: uppercase;
 	letter-spacing: 6.3px;
 	font-size: 2em;
+}
+
+h2 {
+	margin-bottom: 20px;
+    font-size: 1.2em;
+    color: #F2F1F1;
+    display: flex;
+    justify-content: center;
 }
 
 h3 {
@@ -272,13 +280,7 @@ input.email, input.name {
 }
 }
 
-#quote {
-	font-family: 'mrseav';
-	font-style: italic;
-	font-size: 16px;
-}
-
-#hindu {
+#quote, #hindu {
 	font-family: 'mrseav';
 	font-style: italic;
 	font-size: 17px;
@@ -287,4 +289,32 @@ input.email, input.name {
 span {
 	font-size: 37px;
 }
+}
+
+
+/*///////////Thank you page styling//////////*/
+
+.tylogo {
+  margin-left: auto;
+  margin-right:auto;
+  /*margin-top: 4vw;*/
+
+  margin-top: 60px;
+  margin-bottom: 25px;
+  display: flex;
+}
+
+.tyhomeimage {
+  background-image: url("../img/soapberry.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 7vw; 
+}
+
+.social {
+  margin-top: 2%;
+  margin-bottom: 4%;
+
+
 }

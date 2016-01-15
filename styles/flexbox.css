@@ -239,14 +239,9 @@ input.name {
 }
 
 .fifth-content {
-/*	display: flex;*/
-/*    align-self: center;
-    align-items: center;*/
     margin: 0 auto;
 	color: #3d3c3b;
-	z-index: 2;
-	position: absolute;
-    transform: translate3d(50%, 25%, 0);
+    margin: 9% auto;
 }
 
 .fifth-overlay {
