@@ -26,8 +26,7 @@ h2 {
 	margin-bottom: 20px;
     font-size: 1.2em;
     color: #F2F1F1;
-    display: flex;
-    justify-content: center;
+    text-align: center;
 }
 
 h3 {
@@ -90,11 +89,16 @@ button:hover {
 }
 
 .sign-up {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.sign-up {
 	font-size: 1.1em;
     text-align: center;
 }
 
-.sign-up-desc {
+.sign-up-desc, h2 {
 	margin-left: 31px;
     margin-right: 31px;
     text-align: center;
@@ -105,9 +109,14 @@ button:hover {
 	margin-bottom:7px;
 }
 
-input, button {
+input {
 	font-family: 'GeosansLight';
-    font-size: 11px;	
+    font-size: 13px;	
+}
+
+button {
+	font-family: 'GeosansLight';
+    font-size: 14px;		
 }
 
 input.email, input.name {
@@ -219,6 +228,10 @@ input.email, input.name {
 @media (max-width: 768px) {
 .fifth-desc, .fifth-title {
 	color: #f9f9f9;
+}
+
+.fifth-title {
+    margin-bottom: 17%;	
 }
 }
 
