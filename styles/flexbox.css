@@ -94,6 +94,7 @@ Media Queries/Flex for Desktop
 
 .first-page {
 	height: 700px;
+	overflow: hidden;
 }
 
 #video-wrap {
@@ -160,7 +161,7 @@ input.name {
 .home-title {
     text-align: center;
 	margin-top: 100px;
-	line-height: 1.6;
+	line-height: 1.8;
 }
 
 .coupon {

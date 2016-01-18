@@ -29,6 +29,10 @@ h2 {
     text-align: center;
 }
 
+b {
+	color: #97bd48;
+}
+
 h3 {
 	line-height: 37px;
 }
@@ -94,7 +98,7 @@ button:hover {
 }
 
 .sign-up {
-	font-size: 1.1em;
+	font-size: 1.4em;
     text-align: center;
 }
 
@@ -116,7 +120,8 @@ input {
 
 button {
 	font-family: 'GeosansLight';
-    font-size: 14px;		
+    font-size: 14px;
+    font-weight: bold;		
 }
 
 input.email, input.name {
