@@ -42,6 +42,8 @@ h3 {
 	width: 53%;
 	margin: auto;
 	padding: 5px 0 5px 0;
+	justify-content: center;
+	display: block;
 }
 
 .logo2 {
@@ -70,7 +72,7 @@ button:hover {
 	background-image: url("../img/bg1.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 100%;
+/*	height: 100%;*/
 }
 
 #video-wrap, #videotwo-wrap {
@@ -140,6 +142,12 @@ input.email, input.name {
 	margin-bottom: 4px;
 }
 
+@media (max-width: 550px) {
+input.email, input.name, .email-button {
+	min-width: 214px;
+}
+}
+
 .coupon {
     margin-top: 5px;
 	font-size: 10.46px;
@@ -160,10 +168,9 @@ input.email, input.name {
 }
 
 .descriptions {
-	margin-left: 31px;
-    margin-right: 31px;
-    margin-top: 0px;
+	margin: 0px 31px 10px 31px;
     text-align: left;
+
 }
 
 .descriptions2 {
@@ -207,6 +214,12 @@ input.email, input.name {
     font-family: 'mrseav';
 }
 
+@media (max-width: 768px) {
+.value-prop-item {
+    /*display: inline-block; fixing iphone 5*/
+}
+}
+
 .fourth-desc {
 	margin: 31px;
 }
@@ -236,7 +249,7 @@ input.email, input.name {
 }
 
 .fifth-title {
-    margin-bottom: 17%;	
+    margin-bottom: 15%;	
 }
 }
 
@@ -308,7 +321,6 @@ span {
 	font-size: 37px;
 }
 }
-
 
 /*///////////Thank you page styling//////////*/
 
