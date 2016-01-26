@@ -24,13 +24,14 @@ h1 {
 
 h2 {
 	margin-bottom: 20px;
-    font-size: 1.2em;
+    font-size: 1.5em;
     color: #F2F1F1;
     text-align: center;
 }
 
 b {
-	color: #97bd48;
+	text-decoration: underline;
+	text-decoration-color: #97bd48;
 }
 
 h3 {
@@ -311,10 +312,16 @@ input.email, input.name, .email-button {
 }
 }
 
-#quote, #hindu {
+#hindu {
 	font-family: 'mrseav';
 	font-style: italic;
 	font-size: 17px;
+}
+
+#quote {
+	font-family: 'mrseav';
+	font-style: italic;
+	font-size: 23px;	
 }
 
 span {
