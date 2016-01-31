@@ -127,10 +127,14 @@ Media Queries/Flex for Desktop
   background: radial-gradient(rgba(0,0,0,1), rgba(0,0,0,0));
 }
 
+span {
+	font-size: 1.4em;
+}
+
+
 .email-button {
 	padding: 0;
 	width: 100px;
-
 }
 
 .email-container {
@@ -156,6 +160,10 @@ input.name {
     margin-bottom: 30px;
     font-size: 1.2em;
     margin-top: 15px;    
+}
+
+.form {
+	padding-top: 10px;
 }
 
 .home-title {

@@ -112,7 +112,7 @@ button:hover {
 }
 
 .form {
-	padding: 10px 53px 0px 53px;
+	padding: 0px 53px 0px 53px;
 	margin-bottom:7px;
 }
 
@@ -151,7 +151,7 @@ input.email, input.name, .email-button {
 
 .coupon {
     margin-top: 5px;
-	font-size: 10.46px;
+	font-size: 15.46px;
 	text-align: center;
     padding-bottom: 20px;
 }
@@ -324,9 +324,6 @@ input.email, input.name, .email-button {
 	font-size: 23px;	
 }
 
-span {
-	font-size: 37px;
-}
 }
 
 /*///////////Thank you page styling//////////*/
