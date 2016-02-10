@@ -178,15 +178,17 @@ input.email, input.name, .email-button {
 	flex-direction: column;
 }
 
-.second-desc,
-
 /*************PHOTOSWIPE************/
 
-
+/*@media (min-width: 768px) {
+	#slider {
+		display: none;
+	}
+}*/
 .photoswipe {
 	width: 100%;
-	height: auto;
 }
+
 
 @media (min-width: 768px) {
 	.photoswipe {
@@ -194,6 +196,9 @@ input.email, input.name, .email-button {
 	}
 }
 
+#slider {
+	display: none;
+}
 /*************************************/
 
 #bottleone, .ayurvedic {
@@ -352,3 +357,39 @@ input.email, input.name, .email-button {
 
 
 }
+
+@media (min-width: 769px) {
+.swiper-container {
+	display: none;
+}
+}
+
+    .swiper-container {
+        width: 100%;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        color: white;
+        background-repeat: no-repeat;
+		background-size: cover;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: flex-end;
+        -ms-flex-align: flex-end;
+        -webkit-align-items: flex-end;
+        align-items: flex-end;
+        padding: 0px 20px 30px 20px;
+        }
+

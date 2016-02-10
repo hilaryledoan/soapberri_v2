@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html lang="en">
+<html>
 
 	<head>
 
@@ -15,7 +15,7 @@
 	    <meta property="og:image"         content="http://i.imgur.com/ucw3Jek.jpg" />
 	    <meta property="og:image"         content="http://i.imgur.com/fspXMQw.png" />
 
-	    <meta name="keywords" content="soapberry, best organic shampoo, natural" />
+	    <meta name="keywords" content="soapberry, best organic shampoo, natural,  " />
 		
 		<meta charset="utf-8">
 
@@ -33,15 +33,11 @@
 
 		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
 
-<!-- 		<link rel="stylesheet" href="Swiper/dist/css/swiper.min.css"> -->
-
 	    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
 	    <script src="lib/parallax.min.js"></script>   
 
 	    <script src="//load.sumome.com/" data-sumo-site-id="523878fc1929b645a53dfaa6c6c014e7b574d023aa8de25aa8ba4839dad142c2" async="async"></script>
-
-	    <script "http://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.js"></script>
 
     <!-- Facebook Pixel Code -->
 	    <script>
@@ -74,13 +70,9 @@
 
 	  	</script>
 
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
-	 
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
+	  	<script src="Excolo-Slider/js/jquery-1.9.1.min.js"></script>
+		<script src="Excolo-Slider/js/jquery.excoloSlider.min.js"></script>
+		<link href="Excolo-Slider/css/jquery.excoloSlider.css" rel="stylesheet">
 
   	</head>
 
@@ -113,10 +105,10 @@
 <!-- 	      <h3 class="sign-up-desc home-desc">
 	      Lather up with Shampoo/Body Wash made from the forgotten Soapberry
 	      </h3> -->
-		<form method="POST" action="//api.cloudstitch.io/michael60716/magic-form/datasources/sheet" class="form" id="form">
+		<form method="POST" action="//api.cloudstitch.io/michael60716/magic-form/datasources/sheet" class="form">
             <div class="email-container">
-              <input type="text" name="FirstName" class="name" minlength="1" required placeholder="First Name">
-              <input type="email" name="Email" class="email" required placeholder="Enter your email here">
+              <input type="text" name="FirstName" class="name" placeholder="First Name">
+              <input type="email" name="Email" class="email" placeholder="Enter your email here">
               <input type="hidden" name="_redirect" value="http://www.soapberri.com/thankyou.html"> 
               <button type="submit" class="email-button">Free Offer</button>
             </div>
@@ -165,29 +157,22 @@
 	      	  </video>
 	      	</div>
 
-      </div>
-      </div>
+      	<div id="slider">
+			  <img src="img/photoswipe1.jpg"/>
+			  <img src="Excolo-Slider/images/image2.jpg" />
+			  <img src="Excolo-Slider/images/image3.jpg" />
+			  <img src="Excolo-Slider/images/image4.jpg" 
+			    data-plugin-slide-caption="I am a caption <b>and I can contain HTML.</b>" />
+			  <img src="Excolo-Slider/images/image5.jpg" />
+			  <img src="Excolo-Slider/images/image6.jpg" />
+			  <img src="Excolo-Slider/images/image7.jpg" />
+			  <div>
+			    <h2>This is the last slide</h2>
+			    <img style="width: 50%: float: right;" src="images/image8.jpg" />
+			  </div>
+  		</div>
 
-		<div class="swiper-container">
-		    <!-- Additional required wrapper -->
-		    <div class="swiper-wrapper">
-		        <!-- Slides -->
-		        <div class="swiper-slide" style="background-image:url(http://i.imgur.com/rxm0VRD.jpg)" >In our Hometown Taiwan, the roots of the native soapberry trees protect the eco-reserves from typhoons</div>
-		        <!-- <img class="swiper-slide" src="img/photoswipe1.jpg"/> url("../img/bg4.jpg")-->
-		        <div class="swiper-slide" style="background-image:url(http://i.imgur.com/mnTx2mX.jpg)" >However, the fruit is left unused. So we partner with the local comunities to repurpose these berries into our products</div>
-		        <div class="swiper-slide" style="background-image:url(http://i.imgur.com/ZViGWF4.jpg)" >While we bring back nature's cleansing gift, we help sustain both the environment and the community</div>	
-		    </div>
-		    <!-- If we need pagination -->
-		    <div class="swiper-pagination"></div>
-		    
-		    <!-- If we need navigation buttons -->
-		    <div class="swiper-button-prev"></div>
-		    <div class="swiper-button-next"></div>
-		    
-		    <!-- If we need scrollbar -->
-		    <div class="swiper-scrollbar"></div>
-
-      	</div>
+      </div>
       </div>
       </div>
 
@@ -255,10 +240,10 @@
 					<h1 class="sign-up final-title" id="final-title"><span>Early Bird Rewards</span></h1>
 						<h3 class="sign-up-desc final-desc">Get a <b>FREE</b> body wash offer as an early bird</h3>
 
-	      <form method="POST" action="//api.cloudstitch.io/michael60716/magic-form/datasources/sheet" class="form" id="form">
+	      <form method="POST" action="//api.cloudstitch.io/michael60716/magic-form/datasources/sheet" class="form">
 	        		<div class="email-container">
-	          <input type="text" name="FirstName" class="name" minlength="1" required placeholder="First Name">
-	          <input type="email" name="Email" class="email" required placeholder="Enter your email here">
+	          <input type="text" name="FirstName" class="name" placeholder="First Name">
+	          <input type="email" name="Email" class="email" placeholder="Enter your email here">
 	          <input type="hidden" name="_redirect" value="http://www.soapberri.com/thankyou.html"> 
 	          <button type="submit" class="email-button">Free Offer</button>
 	        		</div>
@@ -267,11 +252,6 @@
 	      	</div>     
 	      </form> 
         </div>
-
-	<script>
-        $(".form").validate();
-    </script>
-
 
     <script type="text/javascript" src="lib/backgroundVideo.min.js"></script>
 
@@ -293,32 +273,37 @@
     <script type="text/javascript">
       if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) {
         document.getElementById('video-wrap').style.display = "none";
+        document.getElementById('video-wrap2').style.display = "none";
         document.getElementById('video-overlay').style.visibility = "hidden";
      }
     </script>
 
-<script type="text/javascript">
-      if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) {
-        document.getElementById('swiper-container').style.display = "block";
-     }
+<script>
 
+// window.mobilecheck = function() { var check = false; (function(a){if(/(android|bo|zte\-/i.test(a.substr(0,4)))check = true})(navigator.userAgent||navigator.vendor||window.opera); 
+// return mobile; }
+// if (mobile) {
+// 	var slider = document.getElementById(‘slider’);
+// 	slider.style.display = ‘block’;
+
+$(function () {
+    $("#slider").excoloSlider({
+        autoPlay: false,
+        height: 700,
+    });
+
+// } else {
+
+// }
+
+});
 </script>
 
-<script>
-  $(document).ready(function () {
-    //initialize swiper when document ready  
-    var mySwiper = new Swiper ('.swiper-container', {
-      // Optional parameters
-        pagination: '.swiper-pagination',
-        nextButton: '.swiper-button-next',
-        prevButton: '.swiper-button-prev',
-        slidesPerView: 1,
-        paginationClickable: true,
-        spaceBetween: 30,
-        loop: true,
-      	direction: 'horizontal',
-    })        
-  });
+<script type="text/javascript">
+      if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) {
+        document.getElementById('slider').style.display = "block";
+     }
+
 </script>
 
   </body>

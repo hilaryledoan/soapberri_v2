@@ -4,6 +4,7 @@ Flex for Mobile/Desktop
 
 .logo, .email-container, .second-container, .fifth-content, .final-content, .imageone, .seconds, .descriptions2 {
 	display: flex;
+	display:-webkit-flex;
 }
 
 .email-container, .second-container, .seconds {
@@ -19,10 +20,16 @@ Flex for Mobile/Desktop
 }
 
 .value-props-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;	
 	display: flex;
 	flex-direction: row;
+	-webkit-flex-direction: row;
 	flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
 	justify-content: space-around;
+	-webkit-justify-content: space-around;
 }
 
 /* ================================= 
@@ -122,7 +129,6 @@ Media Queries/Flex for Desktop
   width: 100%;
   position: absolute;
   z-index: 97;
-  /*background-color: #090909;*/
   opacity: 0.42;
   background: radial-gradient(rgba(0,0,0,1), rgba(0,0,0,0));
 }
