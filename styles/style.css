@@ -8,6 +8,12 @@ html, body {
   margin: 0px auto;
 }
 
+@font-face {
+	font-family: 'GeosansLight';
+	font-family: 'Prata';
+	font-family: 'mrseavs';
+}
+
 html, body, p, h1, h2, h3, li {
   font-family: 'GeosansLight', sans-serif;
   font-weight: 300;
@@ -24,7 +30,7 @@ h1 {
 
 h2 {
 	margin-bottom: 20px;
-    font-size: 1.5em;
+    font-size: 1.3em;
     color: #F2F1F1;
     text-align: center;
 }
@@ -44,6 +50,7 @@ h3 {
 	margin: auto;
 	padding: 5px 0 5px 0;
 	justify-content: center;
+	-webkit-justify-content: center;
 	display: block;
 }
 
@@ -89,6 +96,30 @@ button:hover {
 
 .main-header {
 	    background-color: rgba(255,255,255,0.55);
+}
+
+/********** KICKSTARTER BANNER ***********/
+.banner-top {
+	display: flex;
+	display: -webkit-flex;
+	align-items: center;
+	-webkit-align-items: center;
+	justify-content: center;
+	-webkit-justify-content: center;
+	background-color: #c4cf7a;
+	margin-top: -16px;
+	padding: 7px 0px;
+}
+
+/*************************************/
+
+.launch-date {
+	color: white;
+}
+
+.kickstarter-logo {
+	height: 23px;
+	margin-right: 3vw;
 }
 
 .sign-up, .sign-up-desc, .coupon {
@@ -176,6 +207,7 @@ input.email, input.name, .email-button {
 
 .descriptions2 {
 	flex-direction: column;
+	-webkit-flex-direction: column;
 }
 
 /*************PHOTOSWIPE************/
@@ -232,6 +264,7 @@ input.email, input.name, .email-button {
 
 .fifth-content {
 	flex-direction: column;
+	-webkit-flex-direction: column;
 }
 .fifth-desc {
 	margin-left: 45px;
@@ -245,7 +278,7 @@ input.email, input.name, .email-button {
 	background-size: cover;
 	background-position: center;
 	color: #f9f9f9;
-	height: 100%;
+/*	height: 100%;*/
 }
 }
 
@@ -341,6 +374,7 @@ input.email, input.name, .email-button {
   margin-top: 60px;
   margin-bottom: 25px;
   display: flex;
+  display: -webkit-flex;
 }
 
 .tyhomeimage {

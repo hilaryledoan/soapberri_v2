@@ -9,14 +9,17 @@ Flex for Mobile/Desktop
 
 .email-container, .second-container, .seconds {
 	flex-direction: column;
+	-webkit-flex-direction: column;
 }
 
-.email-container {
+.email-container, .final-content {
 	justify-content: center;
+	-webkit-justify-content: center;
 }
 
 .second-container {
 	align-items: center;
+	-webkit-align-items: center;
 }
 
 .value-props-list {
@@ -102,6 +105,18 @@ Media Queries/Flex for Desktop
 .first-page {
 	height: 700px;
 	overflow: hidden;
+
+	/******KICKSTARTER BANNER*******/
+	display: flex;
+	display: -webkit-flex;
+	flex-direction: column;
+	-webkit-flex-direction: column;
+}
+
+.banner-top {
+	order: 2;
+	align-items: flex-end;
+	margin-top: 12vw;
 }
 
 #video-wrap {
@@ -176,6 +191,10 @@ input.name {
     text-align: center;
 	margin-top: 100px;
 	line-height: 1.8;
+}
+
+.home-desc {
+	font-size: 1.5em;
 }
 
 .coupon {
