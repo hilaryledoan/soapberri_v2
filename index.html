@@ -43,6 +43,8 @@
 
 	    <script src="//load.sumome.com/" data-sumo-site-id="523878fc1929b645a53dfaa6c6c014e7b574d023aa8de25aa8ba4839dad142c2" async="async"></script>
 
+	    <script type="text/javascript" src="lib/instafeed.min.js"></script>
+
     <!-- Facebook Pixel Code -->
 	    <script>
 	    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -276,11 +278,26 @@
 	      </form> 
         </div>
 
+<br>
+<section id="homepage-instagram">
+<div id="instafeed"></div>
+
+<!--Instafeed -->
+<script type="text/javascript">
+      var userFeed = new Instafeed({
+        get: 'user',
+        userId: 2296081132,
+        accessToken: '2296081132.057a04f.c0cf1320697146ac871013da64ac351f',
+		template: '<a target="_blank" href="{{link}}" rel="ig" title="{{caption}}"><img class="instagram-image" src="{{image}}" /></a>'
+      });
+      userFeed.run();        
+    
+</script>
+</section>
 
     <script type="text/javascript" src="lib/backgroundVideo.min.js"></script>
 
     <script>
-
     $(document).ready(function() {
           $('#video-two').backgroundVideo({
               $videoWrap: $('#videotwo-wrap'),
@@ -298,15 +315,9 @@
       if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) {
         document.getElementById('video-wrap').style.display = "none";
         document.getElementById('video-overlay').style.visibility = "hidden";
-     }
-    </script>
-
-<script type="text/javascript">
-      if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) {
         document.getElementById('swiper-container').style.display = "block";
      }
-
-</script>
+    </script>
 
 <script>
   $(document).ready(function () {

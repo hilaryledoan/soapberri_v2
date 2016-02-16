@@ -74,6 +74,8 @@
 		<script src="Excolo-Slider/js/jquery.excoloSlider.min.js"></script>
 		<link href="Excolo-Slider/css/jquery.excoloSlider.css" rel="stylesheet">
 
+			    <script type="text/javascript" src="lib/instafeed.min.js"></script>
+
   	</head>
 
   	<body>
@@ -89,6 +91,11 @@
 		        <li class="menu-item"><a href="#buddha">Enlight</a></li>
 		    </ul>
 	    </header>
+
+	    <div class="banner-top">
+	    	<img alt="kickstarter" class="kickstarter-logo" src="img/kickstarter.png">
+	    	<div class="launch-date">Launch: March 1st, 2016</div>
+	    </div>
 
 	    <div class="home-container">
 	    	<br>
@@ -252,6 +259,23 @@
 	      	</div>     
 	      </form> 
         </div>
+
+
+<div id="instafeed"></div>
+<a target="blank" href="https://www.instagram.com/p/BBwM6u0zRcj/">
+
+<!--Instafeed -->
+<script type="text/javascript">
+
+      var userFeed = new Instafeed({
+        get: 'user',
+        userId: 2296081132,
+        accessToken: '2296081132.057a04f.c0cf1320697146ac871013da64ac351f',
+        template: '<a target="_blank" href="{{link}}" rel="ig" title="{{caption}}"><img class="instagram-image" src="{{image}}" /></a>'
+      });
+      userFeed.run();        
+    
+</script>
 
     <script type="text/javascript" src="lib/backgroundVideo.min.js"></script>
 
