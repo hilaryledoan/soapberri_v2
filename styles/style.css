@@ -12,10 +12,11 @@ html, body {
 	font-family: 'GeosansLight';
 	font-family: 'Prata';
 	font-family: 'mrseavs';
+	font-family: 'Lato';
 }
 
 html, body, p, h1, h2, h3, li {
-  font-family: 'GeosansLight', sans-serif;
+  font-family: 'GeosansLight', 'Lato', sans-serif;
   font-weight: 300;
   color: #3d3c3b;
 }
@@ -278,7 +279,7 @@ input.email, input.name, .email-button {
 	background-size: cover;
 	background-position: center;
 	color: #f9f9f9;
-/*	height: 100%;*/
+	min-height: 100%;
 }
 }
 
@@ -487,4 +488,5 @@ input.email, input.name, .email-button {
     -webkit-transition: all .25s ease-in-out;
     transition: all .25s ease-in-out;
 }*/
+
 
