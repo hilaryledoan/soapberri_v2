@@ -2,25 +2,27 @@
 <html>
     <head>
         <title>Soapberri - Share</title>
-        <link href='https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700' rel='stylesheet' type='text/css'>
+        <!-- <link href='https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700' rel='stylesheet' type='text/css'> -->
+        <link rel="GeosansLight" href="fonts/GeosansLight.ttf">
         <link rel="stylesheet" type="text/css" href="styles/share.css" />
         <link type="text/css" rel="stylesheet" media="only screen and (max-width: 600px)" href="styles/mobile.css" />
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="lib/jquery-2.1.4.js"></script>
+        
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     </head>
     <body>
         <h1>Support Soapberri with 3 Clicks</h1>
         <div id="container">
             <p id="welcome">
-                <b>Hola, rockstar!</b><br /><br />We hope you're having an awesome day. You're here because we know you have influence. When you share something, people pay attention. So, please take a few seconds to spread the Soapberri love.
+                <b>Hello, my brigtening Sun!</b><br /><br />We hope the light is guiding your soul today. We're sending this to just you (and a few other close friends) because we know you have influence. When you share something, people pay attention (you know it). So, please take a few seconds to spread the Soapberri love.
                 <br /><br />
                 <b>Thanks so much,</b>
                 <br />
                 Michael, Brian, and the entire Soapberi Team
             </p>
             <div id="progress">
-                <div class="percent">
-                    <div class="number">0%</div>
+                <div id="percent" class="percent">
+                    <div id="number" class="number">0%</div>
                 </div>
             </div>
             <ul id="actions">
@@ -28,6 +30,7 @@
                     <h2>1. Share on Facebook</h2>
                     <p>You, me, and your friends</p>
                     <button class="facebook">Share</button>
+                    <button onclick="window.open('http://google.com', 'newwindow', 'width=300, height=250'); return false;" class="">Test</button>
                 </li>
                 <li>
                     <h2>2. Post on Twitter</h2>
@@ -35,11 +38,12 @@
                     <button class="twitter">Tweet</button>
                 </li>
                 <li>
-                    <h2>3. Watch our Video</h2>
+                    <h2>3. Follow us on Instagram</h2>
                     <p>Thank you in advance for backing Soapberri</p>
                     <button class="play">Play</button>
                 </li>
             </ul>
+            
         </div>
         <div id="footer">&copy; Soapberri 2016</div>
         <script src="lib/share.js"></script>
