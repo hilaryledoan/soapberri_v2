@@ -74,6 +74,16 @@ button:hover {
 	background-color: #84A53E;
 }
 
+a:link {
+	text-decoration: none;
+	color: #f9f9f9;
+}
+
+a:visited {
+	color: #f9f9f9;
+}
+
+
 /************background **************/
 @media (max-width: 768px) {
 .first-page {
@@ -100,7 +110,7 @@ button:hover {
 }
 
 /********** KICKSTARTER BANNER ***********/
-.banner-top {
+/*.banner-top {
 	display: flex;
 	display: -webkit-flex;
 	align-items: center;
@@ -110,7 +120,7 @@ button:hover {
 	background-color: #c4cf7a;
 	margin-top: -16px;
 	padding: 7px 0px;
-}
+}*/
 
 /*************************************/
 
@@ -121,6 +131,16 @@ button:hover {
 .kickstarter-logo {
 	height: 23px;
 	margin-right: 3vw;
+}
+
+
+/*KICKSTARTER ADD*/
+.kickstarter-button {
+	height: 26px;
+}
+
+.first-button {
+	background-color: ##c4cf7a;
 }
 
 .sign-up, .sign-up-desc, .coupon {
@@ -156,7 +176,8 @@ input {
 button {
 	font-family: 'GeosansLight';
     font-size: 14px;
-    font-weight: bold;		
+    font-weight: bold;	
+	box-shadow: 5px 5px 5px #62564f;	
 }
 
 input.email, input.name {
@@ -169,7 +190,7 @@ input.email, input.name {
 .email-button {
 	color: #f9f9f9;
 	padding: 11px;
-	background-color: #97bd48;
+	background-color: #84A53E;
 	border: 1px solid #97bd48;
 	border-radius: 3px;
 	margin-bottom: 4px;
@@ -178,6 +199,11 @@ input.email, input.name {
 @media (max-width: 550px) {
 input.email, input.name, .email-button {
 	min-width: 214px;
+}
+
+.first-button {
+	max-width: 200px;;
+	margin: 0 auto;
 }
 }
 
@@ -488,5 +514,3 @@ input.email, input.name, .email-button {
     -webkit-transition: all .25s ease-in-out;
     transition: all .25s ease-in-out;
 }*/
-
-

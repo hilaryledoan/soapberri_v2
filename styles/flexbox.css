@@ -39,6 +39,7 @@ Flex for Mobile/Desktop
 Media Queries/Flex for Desktop
 ==================================== */
 @media (min-width: 769px) {
+
 	.main-header, .menu-list {
 		display: flex;
 	}
@@ -80,7 +81,7 @@ Media Queries/Flex for Desktop
 	a:link, a:visited {
 		text-decoration: none;
 		color: #f9f9f9;
-		opacity: 0.28;
+/*		opacity: 0.28;*/
 	}
 
 	a.selected, a:hover {
@@ -156,6 +157,11 @@ span {
 .email-button {
 	padding: 0;
 	width: 100px;
+}
+
+.first-button {
+	width: 260px;
+	background-color: #c4cf7a;
 }
 
 .email-container {
@@ -379,6 +385,11 @@ input.name {
 #final-title {
 	margin-top: 50px;
 }
+
+.first-button {
+	font-size: 19px;
 }
 
 }
+
+
