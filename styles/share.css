@@ -23,7 +23,7 @@ a, a:visited, a:active, a:hover {
 
 h1 {
     background-color: #c4cf7a;
-    color: #fff;
+    color: #61554F;
     padding: 10px;
     margin: 0px 0px 30px 0px;
     text-align: center;
@@ -60,12 +60,12 @@ h2 {
 
 #progress .percent {
     background: #c4cf7a;
-    background-image: -webkit-gradient(linear,50% 0,50% 100%,color-stop(0%,#9FD04F),color-stop(100%,#9FD04F));
-    background-image: -webkit-linear-gradient(#9FD04F,#9FD04F);
-    background-image: -moz-linear-gradient(#9FD04F,#9FD04F);
-    background-image: -o-linear-gradient(#9FD04F,#9FD04F);
-    background-image: -ms-linear-gradient(#9FD04F,#9FD04F);
-    background-image: linear-gradient(#9FD04F,#9FD04F);
+    background-image: -webkit-gradient(linear,50% 0,50% 100%,color-stop(0%,#c4cf7a),color-stop(100%,#c4cf7a));
+    background-image: -webkit-linear-gradient(#c4cf7a,#c4cf7a);
+    background-image: -moz-linear-gradient(#c4cf7a,#c4cf7a);
+    background-image: -o-linear-gradient(#c4cf7a,#c4cf7a);
+    background-image: -ms-linear-gradient(#c4cf7a,#c4cf7a);
+    background-image: linear-gradient(#c4cf7a,#c4cf7a);
     width: 1%;
     height: 30px;
     position: relative;
@@ -111,6 +111,7 @@ h2 {
 
 #actions li:nth-child(3) {
     border-right: none;
+    margin-bottom: 50px;
 }
 
 
@@ -119,18 +120,18 @@ button {
     font-family: 'GeosansLight', sans-serif;
     font-weight: bold;
     background: #c4cf7a;
-    background-image: -webkit-gradient(linear,50% 0,50% 100%,color-stop(0%,#9FD04F),color-stop(100%,#9FD04F));
-    background-image: -webkit-linear-gradient(#9FD04F,#9FD04F);
-    background-image: -moz-linear-gradient(#9FD04F,#9FD04F);
-    background-image: -o-linear-gradient(#9FD04F,#9FD04F);
-    background-image: -ms-linear-gradient(#9FD04F,#9FD04F);
-    background-image: linear-gradient(#9FD04F,#9FD04F);
-    color: black;
+    background-image: -webkit-gradient(linear,50% 0,50% 100%,color-stop(0%,#799EBC),color-stop(100%,#517fa4));
+    background-image: -webkit-linear-gradient(#799EBC,#517fa4);
+    background-image: -moz-linear-gradient(#799EBC,#517fa4);
+    background-image: -o-linear-gradient(#799EBC,#517fa4);
+    background-image: -ms-linear-gradient(#799EBC,#517fa4);
+    background-image: linear-gradient(#799EBC,#517fa4);
+    color: white;
     -moz-box-shadow: inset 0 1px 0 0 #b7dc63;
     -webkit-box-shadow: inset 0 1px 0 0 #B7DC63;
     -o-box-shadow: inset 0 1px 0 0 #b7dc63;
     box-shadow: inset 0 1px 0 0 #B7DC63;
-    text-shadow: #FFFF8E 0 1px 0;
+/*    text-shadow: #FFFF8E 0 1px 0;*/
     -moz-background-clip: border;
     -webkit-background-clip: border;
     -o-background-clip: border-box;
@@ -144,7 +145,7 @@ button {
     -ms-border-radius: 6px;
     -khtml-border-radius: 6px;
     border-radius: 6px;
-    color: #000;
+    color: white;
     font-size: 24px;
     line-height: 48px;
     padding: 0 20px;
